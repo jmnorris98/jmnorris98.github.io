@@ -76,6 +76,19 @@ body {
     height: auto;
 }
 
+.Other .OtherImages{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Other .OtherImages .image{
+    width: 50%;
+}
+
+.Other .OtherImages img{
+    width: calc(100% - (20px * 2));
+    margin: 20px;
+}
+
 .footer {
   padding: 20px; /* Some padding */
   text-align: center; /* Center text*/
@@ -116,7 +129,7 @@ body {
     <a href="#RESEARCH">Research Interests</a>
     <a href="#EDUCATION">Education</a>
     <a href="#OUTREACH">Outreach</a>
-    <a href="#OTHERS" class="right">Link</a>
+    <a href="#OTHERS" class="right">Other</a>
   </div>
 
 <div class="main">
@@ -168,7 +181,7 @@ body {
         Before starting my PhD journey, I worked in Science Communication and Education
         at Jodrell Bank Discovery Centre as an Explainer. Here, I would work with members of
         the public to try and explain some of the science we do at the Observatory and around
-        the world. I feel very strongly about helping others gain some understanding with STEAM subjects, 
+        the world. I feel very strongly about helping others gain more understanding with STEAM subjects, 
         encouraging everyone to get involved and I am always very happy to partipate in science outreach.
     </p>
 </div>
@@ -183,7 +196,20 @@ body {
     part of the spectrum are also incredibly nice to look at. I am also a keen photographer and
     videographer. Below are some examples of my work:
     </p>
-    
+    <div class="OtherImages">
+        <div class="image">
+        <img src="Images\CityAtDusk.jpg" alt="Manchester at Dusk">
+        </div>
+        <div class="image">
+            <img src="Images\CityAtNight.jpg" alt="Manchester at Night">
+        </div>
+        <div class="image">
+            <img src="Images\AuroraHut.jpg" alt="Norwegian Aurora">
+        </div>
+        <div class="image">
+            <img src="Images\TuscanDusk.jpg" alt="Florence at Dusk">
+        </div>
+    </div>
 </div>
 </div>
 
