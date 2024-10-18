@@ -11,13 +11,20 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
-
+.TopContent {
+    display: flex;
+}
 .header {
   padding: 80px; /* some padding */
   text-align: center; /* center the text */
   background: #138005; /* green background */
   color: white; /* white text color */
-
+}
+.RightImage img {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -62,11 +69,16 @@ body {
 
 </style>
 <body>
-<div class="header">
+
+
+<div class="TopContent">
+    <div class="header">
         <h1>Jordan Norris</h1>
         <p>The Webpage</p>
-        <img src="Images\JordanOnLovell.jpg" alt="Picture of Me" 
-        style="display: flex; float: right;">
+    </div>
+    <div class="RightImage">
+        <img src="Images\JordanOnLovell.jpg" alt="Picture of Me">
+    </div>
 </div>
 
 
